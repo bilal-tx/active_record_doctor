@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE.txt", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  rails_version = "6.0.0"
+  rails_version = ">= 6.0.0"
 
   s.add_dependency "railties", rails_version
   s.add_dependency "activerecord", rails_version
